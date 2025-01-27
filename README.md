@@ -46,10 +46,6 @@ POST /api/auth/login
 Login an existing user and receive a JWT token.
 
 Request Body:
-
-json
-Copy
-Edit
 {
   "email": "string",
   "password": "string"
@@ -63,10 +59,6 @@ GET /api/movies
 Retrieve all movies added by the authenticated user.
 
 Request Header:
-
-json
-Copy
-Edit
 {
   "Authorization": "Bearer <JWT>"
 }
@@ -78,10 +70,6 @@ POST /api/movies
 Add a new movie to the authenticated user's list.
 
 Request Body:
-
-json
-Copy
-Edit
 {
   "title": "string",
   "year": "number",
